@@ -28,7 +28,7 @@ This project implements a **plant disease detection system** using **Deep Learni
 
 ## ✨ Key Features
 
-- ✅ **Detects 38 types** of plant diseases with 90.27% accuracy
+- ✅ **Detects 38 types** of plant diseases with 90.44% accuracy
 - ✅ **Interactive UI** with Streamlit for image upload and diagnosis
 - ✅ **Confidence level display** and top-3 probabilities for transparency
 - ✅ **Optimized** for systems with 8GB RAM and mid-range GPUs
@@ -85,9 +85,9 @@ Dense (38, Softmax) ← Final Output
 
 | Metric | Value | Interpretation |
 | :--- | :--- | :--- |
-| **Accuracy** | **90.27%** | 90 out of 100 images correctly classified |
-| **Precision** | **93.38%** | When the model says it's disease X, 93% of the time it's correct |
-| **Recall** | **87.72%** | Out of all actual disease X cases, 87.7% were detected |
+| **Accuracy** | **90.44%** | 90 out of 100 images correctly classified |
+| **Precision** | **93.26%** | When the model says it's disease X, 93% of the time it's correct |
+| **Recall** | **87.67%** | Out of all actual disease X cases, 87.7% were detected |
 
 ### Dataset Statistics
 
@@ -109,7 +109,7 @@ Dense (38, Softmax) ← Final Output
 ```
 Plant-Disease-Detection/
 │
-├── train.py                     # Model training code
+├── main.ipynb                     # Model training code
 ├── app.py                       # Streamlit UI application
 ├── requirements.txt             # Dependencies list
 │
@@ -121,7 +121,6 @@ Plant-Disease-Detection/
 ├── models/                      # Saved models
 │   ├── plant_disease_model.keras
 │   ├── plant_disease_model.h5
-│   ├── model_weights.h5
 │   ├── model_architecture.json
 │   └── saved_model/
 │
