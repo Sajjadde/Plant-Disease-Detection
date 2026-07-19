@@ -275,10 +275,10 @@ Streamlit is an open-source framework for building data applications quickly wit
 If you use this project in your research, please cite it as:
 
 ```bibtex
-@software{plant_disease_detection_2024,
+@software{plant_disease_detection_2026,
   author = {sajjadde},
   title = {Plant Disease Detection using Fine-tuned MobileNetV2},
-  year = {2024},
+  year = {2026},
   url = {https://github.com/your-username/Plant-Disease-Detection}
 }
 ```
