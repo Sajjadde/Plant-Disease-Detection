@@ -15,7 +15,7 @@
 
 ## 📌 Project Overview
 
-This project implements a **plant disease detection system** using **Deep Learning** and **Fine-tuning** techniques. By leveraging the pre-trained **MobileNetV2** model and fine-tuning it on the **PlantVillage** dataset, we have achieved a model with **90.27% accuracy** across 38 different plant disease classes.
+This project implements a **plant disease detection system** using **Deep Learning** and **Fine-tuning** techniques. By leveraging the pre-trained **MobileNetV2** model and fine-tuning it on the **PlantVillage** dataset, we have achieved a model with **90.44% accuracy** across 38 different plant disease classes.
 
 ### 🎯 Project Objectives
 
@@ -28,7 +28,7 @@ This project implements a **plant disease detection system** using **Deep Learni
 
 ## ✨ Key Features
 
-- ✅ **Detects 38 types** of plant diseases with 90.44% accuracy
+- ✅ **Detects 38 types** of plant diseases with % accuracy
 - ✅ **Interactive UI** with Streamlit for image upload and diagnosis
 - ✅ **Confidence level display** and top-3 probabilities for transparency
 - ✅ **Optimized** for systems with 8GB RAM and mid-range GPUs
@@ -85,7 +85,7 @@ Dense (38, Softmax) ← Final Output
 
 | Metric | Value | Interpretation |
 | :--- | :--- | :--- |
-| **Accuracy** | **90.44%** | 90 out of 100 images correctly classified |
+| **Accuracy** | **%** | 90 out of 100 images correctly classified |
 | **Precision** | **93.26%** | When the model says it's disease X, 93% of the time it's correct |
 | **Recall** | **87.67%** | Out of all actual disease X cases, 87.7% were detected |
 
